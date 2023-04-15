@@ -39,4 +39,4 @@ if __name__ == "__main__":
     download("https://www.jungewelt.de/", "jungewelt")
     download("https://www.merkur.de/", "merkur")
     download("https://www.n-tv.de/", "ntv")
-    download("https://www.rp-online.de/", "rponline")
+    download("https://rp-online.de/", "rponline")
