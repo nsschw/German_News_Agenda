@@ -20,7 +20,6 @@ def download(url, newspaper):
 
 
 if __name__ == "__main__":
-
     download("https://www.bild.de/", "bild")
     download("https://welt.de", "welt")
     download("https://www.faz.net/aktuell/", "faz")
