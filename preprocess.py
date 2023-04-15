@@ -77,10 +77,8 @@ def save_zeit_as_json(homepages):
     if not os.path.exists("Data/All"):
         os.mkdir("Data/All") 
     with open("Data/All/zeit.jsonl", "w", encoding="utf-8") as f:
-        json.dump(list_homepages, f, indent=2)    
-    
-                
- 
+        json.dump(list_homepages, f, indent=2) 
+
 
 
 if __name__ == "__main__":
