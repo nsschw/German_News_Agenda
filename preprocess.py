@@ -85,6 +85,6 @@ def save_zeit_as_json(homepages):
 
 
 if __name__ == "__main__":
-    x = read_files("zeit")
-    save_zeit_as_json(x)
+    zeit = read_files("zeit")
+    save_zeit_as_json(zeit)
     
